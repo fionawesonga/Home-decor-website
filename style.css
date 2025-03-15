@@ -2,299 +2,381 @@
     font-family: carra;
     src: url(MacondoSwashCaps-Regular.ttf);
 }
+
 body {
     font-family: poppin sans-serif;
-    margin: auto;
-    margin-top: 200px;
-    background: rgb(244,240,234); 
-    color:rgb(0,0,0);
-    width: 82%;
+    padding: 4% 8%;
+    background-color: rgb(255, 255, 255);
+
 }
-.main_container{
-    background-color: rgb(255,255,255);
-    
-}
-header{
-    justify-content:space-between;
+
+header {
+    justify-content: space-between;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
-.header1{
-    margin-left: 95px;
-    margin-top: 40px;
-    font-family: carra;  
-    font-size: 200%;  
+
+.header1 {
+    margin-top: -210px;
+    font-family: carra;
+    font-size: 200%;
 
 }
 
-.navmenu{
+.navmenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 500px;
+    margin-right: 80px;
     gap: 50px;
-    margin-top: 60px;
+    margin-top: -120px;
     list-style: none;
     font-size: larger;
     text-decoration: none;
-} 
-.navmenu li a {
-    text-decoration: none;
-    color:rgb(0,0,0);
-}
-.icons{
-    display: flex;
-    margin-right: 170px;
-    gap: 20px;
-    font-size: x-large;
-    margin-top: 40px;
-}
-.iconsholder{
-    display: inline-block;
-}
-.dot{
-    background-color: yellow;
-    border-radius: 30px;
-    position:absolute;
-    width: 20px;
-    height: 20px;
-    display: flex;
-}
-/* .cornershape{
-    background-color:rgb(71, 71, 71);
-    width: 700px;
-    height: 500px;
-    right:0 ;
-    top: 0%;
-    border-radius: 50px;
-    position:absolute;
-    transform: rotate(-30deg);
-    margin-top:-10% ;
-    margin-right: -5%;
-     z-index: 1;
-     overflow:hidden;
-} */
-.section1-content{
-    display: flex;
-    justify-content:space-between;
-    position:relative;
-    
 }
 
-.section1p1{
-    margin-left: 75px;
-    margin-top: 200px;
+.navmenu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.icons {
+    display: flex;
+    left: 50px;
+    gap: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+    position: absolute;
+    transform: rotate(14deg);
+    color: white;
+}
+
+.iconsholder {
+    display: inline-block;
+}
+
+.dot {
+    background-color: yellow;
+    border-radius: 30px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 15px;
+    left: 15px;
+
+}
+
+.shapecontainer {
+    background-color: rgb(71, 71, 71);
+    border: solid 1px;
+    width: 30%;
+    height: 400px;
+    position: relative;
+    transform: rotate(-13deg);
+    left: 80px;
+    border-radius: 90px 0 0;
+}
+
+.section1-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 93%;
+    margin-top: -11%;
+}
+
+.section1p1 {
+
     font-weight: 100;
 }
 
-.section1h1{
-    margin-left: 110px;
-    padding: 0;
+.section1h1 {
     font-size: xx-large;
 }
-.home{
+
+.home {
     border: 2px dashed grey;
 
 }
-.start-btn {
+
+.button {
     padding: 20px 30px;
     cursor: pointer;
-    font-weight: bold;
     background: grey;
     color: white;
-    border-radius:40px ;
-    border: none;
-    display: inline-block;
-    margin-right: 20px;
-    margin-left:130px;
-}
-.vaseimage1{
-   height:45%;
-}
-
-.play-btn{
-
-    color: black;
-    display: inline-block;
     border-radius: 50px;
     border: none;
-}
-.play-btn i{padding: 8px;
-    background-color:grey;
-    color: black;
-    border-radius: 5px;
     margin-right: 20px;
+    height: 90px;
+    width: 190px;
+    font-size: large;
+
 
 }
-.numbers{
+
+.vaseimage1 {
+    height: 45%;
+}
+
+.section1-buttons span {
+    margin-left: 3%;
+    font-size: x-large;
+}
+
+.play-btn {
+    padding: 10px;
+    background-color: grey;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+
+.numbers {
     display: flex;
     margin-top: 80px;
-    margin-left: 100px;
     justify-content: space-between;
     gap: 20px;
     font-weight: bold;
 
 }
-.numbers span{
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 23px;
-    font-weight: lighter;
-    margin: 90px 0px;
-}
-.numbers p{
-    font-size: 30px;
+
+.numbers p {
+    font-size: 40px;
     margin: 20px 0px;
     margin-left: 5px;
 
 }
-.brands{
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 20px;
+
+.brands {
+    word-spacing: 160px;
+    font-size: xx-large;
+    color: gray;
+    display: block;
+    margin-top: 12%;
 }
-.bestseller{
-    padding: 20px 0;
-    margin-top: 200px;
+
+#ikea {
+    font-family: chango;
 }
-.section3h2{
-    font: size 15px;
-    margin-top: 250px;
-    margin-left: 100px;
+
+#dip {
+    font-family: Newsreader;
+}
+
+#desieno {
+    font-family: Comfortaa;
 
 }
-.carets{
-    gap: 15px;
-    align-items: center;
-    margin-left: 1500px;
-    margin-top: -100px;
-    cursor: pointer;
+
+#benuta {
+    font-family: Mitr;
 }
-.left-caret{
+
+#westwing {
+    font-family: Libre Caslon Display;
+
+}
+
+.bestseller {
+    display: block;
+    margin-top: 15%;
+}
+
+.carets {
+    margin-left: 85%;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.left-caret {
     color: grey;
 }
-.products{
+
+.products {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    width: 100%;
-    margin-top: 200px;
+    width: 95%;
+    margin-top: 5%;
+}
+
+.vaseimage1 {
+    height: 50%;
+}
+
+.vaseimage2 {
+    width: 50%;
+    margin-top: 4%;
+    height: 60%;
+    margin-left: 4%;
 
 }
-.vaseimage{
-    padding: 20px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    height: 250px;
-    justify-content: center;
+
+.vaseimage2 img {
+    height: 60%;
+    width: 50%;
+
 }
-.vaseimage img{
+
+.vaseimage3 {
+    height: 100%;
+    display: block;
+    margin-left: -19%;
+    margin-right: 5%;
+    width: 25%;
+    margin-top: 4%;
+
+}
+
+.vaseimage3 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
 }
-.new{
+
+#fourth {
+    margin-top: 13%;
+}
+
+.shop {
+    padding: 20px 30px;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 50px;
+    margin-right: 20px;
+    height: 90px;
+    width: 190px;
+    font-size: large;
+    margin-top: 4%;
+}
+
+.new {
     top: 10px;
     left: 10px;
     color: red;
     padding: 5px 6px;
     font-weight: bold;
 }
-.discount{
+
+.discount {
     color: black;
     padding: 5px 6px;
     margin-left: 200px;
 
 }
-.description{
-    margin-top: 20px;
-    font-size:25px ;
+
+.product1 #rough {
+    margin-top: 25%;
 }
-.price{
-    font-size:21px;
+
+.description {
+    margin-right: 80%;
 }
-.promotions-offer{
-text-align:center;
-margin-left: 10%;
-display: flex;
+
+.price {
+    font-size: 21px;
 }
-.promotions-offer h1{
-margin-left: 20%;
-}
-.offer2{
-    float:right;
-    margin-right: 20%;
-    padding:100px;
-    
-}
-section5{
-    display: flex;
-    justify-content: center;
-    margin-top: 11%;
-}
-.img3{
- margin-left: 15%;
-}
-section6{
-    display: flex;
-    justify-content: space-between;
-}
-.description{
-    display: flex;
-    justify-content: center;
-   
-}
-.customerservice{
+
+.promotions-offer {
     text-align: center;
     margin-top: 10%;
-    
 }
-.customerservice img{
+
+.offer2 {
+    float: right;
+    margin-right: 20%;
+    padding: 100px;
+
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.section5 {
+    display: flex;
+    margin-top: 11%;
+}
+
+.section5 h1 {
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.img3 {
+    margin-left: 15%;
+}
+
+.section6 {
+    justify-content: space-between;
+}
+
+.offers {
+    margin-left: 8%;
+    width: 100%;
+}
+
+.customerservice {
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.customerservice img {
     margin-right: 10%;
     margin-top: 20%;
     font-size: larger;
     display: flex;
 }
-.customerservice i{
+
+.customerservice i {
     margin-left: 50%;
 }
-.customerservice span{
+
+.customerservice span {
     font-size: larger;
 }
-.offer{
+
+.offer {
     display: flex;
     gap: 100px;
     margin-right: 20%;
     margin-top: 200px;
 
 }
-.reviews{
+
+.reviews {
     margin-left: 35%;
     margin-top: 20%;
     font-size: large;
 
 }
-.reviews p{
+
+.reviews p {
     padding-left: 10%;
 
 }
-.image4{
+
+.image4 {
     display: flex;
     margin: 8%;
 }
-.services{
-        display: flex;
-        margin-left: 11%;
-        gap: 12%;
-        margin-bottom: 9%;
-        font-size: large;
-        text-align: center;
+
+.services {
+    display: flex;
+    margin-left: 11%;
+    gap: 12%;
+    margin-bottom: 9%;
+    font-size: large;
+    text-align: center;
 }
- .copyrights{
+
+.copyrights {
     display: flex;
     margin-left: 11%;
     gap: 53%;
-} 
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+}

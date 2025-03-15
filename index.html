@@ -7,13 +7,15 @@
     <title>Home Decor Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/1df1736bb2.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chango">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Newsreader">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mitr">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre Caslon Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
 </head>
 
 <body>
-    <div class="main_container">
         <header>
             <div class="header1">CARRA</div>
             <nav>
@@ -25,26 +27,25 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
-
-            <div class="icons">
-                <div class="iconsholder">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                    <div class="dot"></div>
-                </div>
-                <i class="fa-regular fa-user"></i>
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-    </div>
-</div>
-    </header>
-
-
-
-    <main>
-       
-            <section1 class="section1-content">
+            <div class="shapecontainer">
                 <div class="cornershape"></div>
-                <div>
+                <div class="icons">
+                    <div class="iconsholder">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <div class="dot"></div>
+                    </div>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <section1 class="section1-content">
+
+                <div class="firsttext">
 
                     <p class="section1p1">ELEVATE YOUR SPACE & EXPRESS YOUR STYLE</p>
 
@@ -55,25 +56,25 @@
                     </div>
 
                     <div class="section1-buttons">
-                        <button class="start-btn">Start Now</button>
+                        <button class="button">Start Now</button>
                         <button class="play-btn"><i class="fa-solid fa-play"></i>
-                            <span>Watch video</span></button>
+                        </button> <span>Watch video</span>
                     </div>
 
                     <div class="numbers">
                         <div>
                             <p>
-                            +758K     
-                        </p> 
-                       <p>Item Disponible</p>
+                                +758K
+                            </p>
+                            Item Disponible
                         </div>
                         <div>
                             <p>+67K</p>
-                            <p>   New Collections</p>
+                            New Collections
                         </div>
                         <div>
                             <p>70%</p>
-                            <p> Inspired Decoration</p>
+                            Inspired Decoration
                         </div>
                     </div>
                 </div>
@@ -85,22 +86,23 @@
             </section1>
 
             <section2 class="brands">
-                <img src="images/brand1.png" alt="IKEA">
-                <img src="images/brand2.png" alt="DIPTYQUE">
-                <img src="images/brand3.png" alt="DESENIO">
-                <img src="images/brand4.png" alt="benuta">
-                <img src="images/brand5.png" alt="WESTWINC">
+                <span id="ikea">IKEA</span>
+                <span id="dip">DIPTYQUE</span>
+                <span id="desieno">DESENIO</span>
+                <span id="benuta">benuta</span>
+                <span id="westwing">WESTWING</span>
 
             </section2>
 
             <section3 class="bestseller">
                 <div class="section3h2">
-                    <h2>BEST SALLER:</h2>
+                    BEST SALLER:
+                    <span class="carets">
+                        <i class="left-caret fa-solid fa-caret-left"></i>
+                        <i class="fa-solid fa-caret-right"></i>
+                    </span>
                 </div>
-                <div class="carets">
-                    <i class="left-caret fa-solid fa-caret-left"></i>
-                    <i class="fa-solid fa-caret-right"></i>
-                </div>
+
 
                 <div class="products">
                     <div class="product1">
@@ -109,63 +111,62 @@
                             <img src="images/image (14).png" alt="vase1">
                         </div>
 
-                        <h3 class="description">ROUGH EARTH VASE</h3>
+                        <p id="rough">Rough Earth Vase</p>
                         <p class="price">$175</p>
                     </div>
 
-                    <div class="product2">
-                        <div class="vaseimage">
-                            <img src="images/vase9.webp" alt="vase2">
-                        </div>
-                        <h3 class="description">Flower Vase Nordic</h3>
+                    <div class="vaseimage2">
+                        <img src="images/vase9.webp" alt="vase2">
+                        <p class="description">Flower Vase Nordic</p>
                         <p class="price">$257</p>
                     </div>
-                    <div class="product3">
-                        <div class="vaseimage">
-                            <img src="images/vase(3).png" alt="vase3">
-                        </div>
-                        <h3 class="description">Large Ceramic Vase</h3>
+
+
+
+                    <div class="vaseimage3">
+                        <img src="images/vase(3).png" alt="vase3">
+                        <p>Large Ceramic Vase</p>
                         <p class="price">$185</p>
                     </div>
+
+
                     <div class="product4">
-                        <p class="new">NEW><span class="discount"> -15%</span></p>
-                        <div>
+                        <p class="new">NEW<span class="discount"> -15%</span></p>
+                        <div class="vaseimage4">
                             <img src="images/image (15).png" alt="vase4">
                         </div>
-                        <div>
-                            <h3 class="description">Large Ceramic Vase</h3>
-                            <p class="price">$185</p>
-                        </div>
+                        <p id="fourth"> Large Ceramic Vase</p>
+                        <p class="price">$185</p>
                     </div>
                 </div>
             </section3>
 
             <section4 class="restyle">
                 <div class="promotions-offer">
-                    <h2>RESTYLE YOUR SPACE</h2>
+                    <p class="heading">RESTYLE YOUR SPACE</p>
                     <p>Give your home a truly customized feel</p>
                 </div>
 
                 <img src="images/image (16).png" alt="decoration">
                 <div class="offer2">
                     <p>OFFER ONLINE AND IN-STORE PROMOTIONS</p>
-                    <h1>TRENDY HOME<br>DECOR FOR 2023</h1>
+                    <p class="heading">TRENDY HOME<br>DECOR FOR 2023</p>
                     <p>Transform your living space with trendy home decor ideas.<br>
                         Discover top tips and inspiration to create a stylish and<br>
                         inviting atmosphere in your home,</p>
 
-                    <button class="sh-btn">Shop Now</button>
+                    <button class="shop">Shop Now</button>
 
                 </div>
 
             </section4>
-            <section5>
+            <section5 class="section5">
                 <div>
                     <div>
                         <p>OFFER ONLINE AND IN-STORE PROMOTIONS</p>
                     </div>
                     <div>
-                        <p>STYLISH PIECES <br>DECOR IDEAS</p>
+                        <h1>STYLISH PIECES <br>DECOR IDEAS</h1>
                     </div>
                     <div>
                         <p>We tapped designers to find modern and stylish home<br>
@@ -173,7 +174,7 @@
                             can do on a budget you have.</p>
                     </div>
                     <div>
-                        <button>Shop Now</button>
+                        <button class="shop">Shop Now</button>
                     </div>
                 </div>
                 <div class="img3">
@@ -189,23 +190,23 @@
                 <div class="offer">
                     <div class="offers">
                         <img src="images/icon1.png" alt="">
-                        <p>SOLID PIECES</p>
-                        <p>Solid construction ensures<br>
-                            your decor remains.</p>
+                        <h3>SOLID PIECES</h3>
+                        Solid construction ensures<br>
+                        your decor remains.
                     </div>
                     <div class="offers">
                         <img src="images/icon2.png" alt="">
-                        <p>GUARANTEE 30 DAY</p>
+                        <h3>GUARANTEE 30 DAY</h3>
                         <p>We will refund or <br>exchange your order</p>
                     </div>
                     <div class="offers">
                         <img src="images/icon3.png" alt="">
-                        <p>GIFT CARDS</p>
+                        <h3>GIFT CARDS</h3>
                         <p>Delivered by email and<br>contain instructions.</p>
                     </div>
                     <div class="offers">
                         <img src="images/icon4.png" alt="">
-                        <p>TRACK ORDER</p>
+                        <h3>TRACK ORDER</h3>
                         <p>You can use our services <br> to track your order.</p>
                     </div>
                 </div>
@@ -234,9 +235,8 @@
                 <div>
 
                 </div>
-        </div>
-        </section7>
-        </div>
+    </div>
+    </section7>
     </main>
     <footer>
         <div class="services">
@@ -293,8 +293,6 @@
         </div>
 
     </footer>
-    </div>
-
 </body>
 
 </html>
