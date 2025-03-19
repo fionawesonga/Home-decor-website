@@ -5,9 +5,9 @@
 
 body {
     font-family: poppin sans-serif;
-    padding: 4% 8%;
     background-color: rgb(255, 255, 255);
-
+    margin-top: 10px;
+    margin-left: 6%;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
     overflow: hidden;
 }
 
-.header1 {
+.logo {
     margin-top: -210px;
     font-family: carra;
     font-size: 200%;
@@ -27,8 +27,7 @@ header {
 .navmenu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-right: 80px;
+    margin-right: 40px;
     gap: 50px;
     margin-top: -120px;
     list-style: none;
@@ -52,7 +51,7 @@ header {
     color: white;
 }
 
-.iconsholder {
+.icons-container {
     display: inline-block;
 }
 
@@ -67,7 +66,7 @@ header {
 
 }
 
-.shapecontainer {
+.shape-container {
     background-color: rgb(71, 71, 71);
     border: solid 1px;
     width: 30%;
@@ -78,7 +77,7 @@ header {
     border-radius: 90px 0 0;
 }
 
-.section1-content {
+.home {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -86,16 +85,16 @@ header {
     margin-top: -11%;
 }
 
-.section1p1 {
+.home-paragraph {
 
     font-weight: 100;
 }
 
-.section1h1 {
+.homeh1 {
     font-size: xx-large;
 }
 
-.home {
+.theme {
     border: 2px dashed grey;
 
 }
@@ -115,11 +114,11 @@ header {
 
 }
 
-.vaseimage1 {
+.rough-eimage {
     height: 45%;
 }
 
-.section1-buttons span {
+.home-buttons span {
     margin-left: 3%;
     font-size: x-large;
 }
@@ -132,7 +131,7 @@ header {
     border: none;
 }
 
-.numbers {
+.statistics {
     display: flex;
     margin-top: 80px;
     justify-content: space-between;
@@ -141,7 +140,7 @@ header {
 
 }
 
-.numbers p {
+.statistics p {
     font-size: 40px;
     margin: 20px 0px;
     margin-left: 5px;
@@ -178,7 +177,7 @@ header {
 
 }
 
-.bestseller {
+.bestsellers {
     display: block;
     margin-top: 15%;
 }
@@ -199,11 +198,11 @@ header {
     margin-top: 5%;
 }
 
-.vaseimage1 {
+.rough-image {
     height: 50%;
 }
 
-.vaseimage2 {
+.nodic-vase {
     width: 50%;
     margin-top: 4%;
     height: 60%;
@@ -211,13 +210,13 @@ header {
 
 }
 
-.vaseimage2 img {
+.nodic-vase img {
     height: 60%;
     width: 50%;
 
 }
 
-.vaseimage3 {
+.white-ceramic {
     height: 100%;
     display: block;
     margin-left: -19%;
@@ -227,13 +226,13 @@ header {
 
 }
 
-.vaseimage3 img {
+.white-ceramic img {
     height: 100%;
     width: 100%;
 }
 
 #fourth {
-    margin-top: 13%;
+    margin-top: 39%;
 }
 
 .shop {
@@ -263,12 +262,12 @@ header {
 
 }
 
-.product1 #rough {
-    margin-top: 25%;
+.rough-vase #rough {
+    margin-top: 43%;
 }
 
 .description {
-    margin-right: 80%;
+    margin-right: 50%;
 }
 
 .price {
@@ -280,7 +279,7 @@ header {
     margin-top: 10%;
 }
 
-.offer2 {
+.advert-offer {
     float: right;
     margin-right: 20%;
     padding: 100px;
@@ -293,17 +292,17 @@ header {
 
 }
 
-.section5 {
+.services {
     display: flex;
     margin-top: 11%;
 }
 
-.section5 h1 {
+.services h1 {
     font-size: 70px;
     line-height: 90px;
 }
 
-.img3 {
+.display {
     margin-left: 15%;
 }
 
@@ -316,24 +315,24 @@ header {
     width: 100%;
 }
 
-.customerservice {
+.customer-review {
     text-align: center;
     margin-top: 10%;
 
 }
 
-.customerservice img {
+.customer-review img {
     margin-right: 10%;
     margin-top: 20%;
     font-size: larger;
     display: flex;
 }
 
-.customerservice i {
+.customer-reviewi {
     margin-left: 50%;
 }
 
-.customerservice span {
+.customer-review span {
     font-size: larger;
 }
 
@@ -357,12 +356,12 @@ header {
 
 }
 
-.image4 {
+.arther-image {
     display: flex;
     margin: 8%;
 }
 
-.services {
+.contacts-links {
     display: flex;
     margin-left: 11%;
     gap: 12%;
